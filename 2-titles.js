@@ -7,6 +7,10 @@ const itemsTitles = data.map(function(x){
   return x.title
 });
 
+const itemsTitiles = data.map((data) => {
+      return itemTitles.title;
+
+})
 // itemsTitles.push(addingTitles);
 
 console.log(itemsTitles)
